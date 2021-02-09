@@ -1,26 +1,38 @@
 * {
     margin: 0;
     padding: 0;
+    position: relative;
+  }
+
+  :root {
+      --mainColor: rgb(15, 31, 17);
   }
 
 body {
-    background-color: rgb(88, 115, 116);
+    background-color: rgb(96, 100, 100);
+    color: var(--maincolor);
 }
 
 img {
     border-radius: 5%;
     margin: 5px;
-    border: solid white;
-    
+    border: solid white;  
 }
+
+#work img:hover {
+    opacity: 80%;
+    }
+      
+
 
 header {
     display: flex;
-    background-color: darkslategray; 
+    height: 100px;
     justify-content: space-between;    
-    align-items: center;
+    align-items: flex-end;
     padding: 10px;
     flex-wrap: wrap;
+    background-color: var(--mainColor);
 }
 
 nav ul {
@@ -63,6 +75,7 @@ aside {
     min-width: 200px;
     max-width: 200px;
     border-right: solid;
+    border-color: rgb(44, 48, 48);
     
 }
 
@@ -86,4 +99,69 @@ p {
     align-items: center;
 }
 
-  
+.title1 {
+    background-color: white;
+    color: var(--mainColor);
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    top: 425px;
+    left: 105px;
+    z-index: 1;
+
+}
+
+
+
+.title2 {
+    background-color: white;
+    color: var(--mainColor);
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    top: 660px;
+    left: 105px;
+    z-index: 1;
+}
+
+.title3 {
+    background-color: white;
+    color: var(--mainColor);
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    top: 660px;
+    left: 423px;
+    z-index: 1;
+}
+
+.title4 {
+    background-color: white;
+    color: var(--mainColor);
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    bottom: 130px;
+    left: 105px;
+    z-index: 1;
+}
+
+.title5 {
+    background-color: white;
+    color: var(--mainColor);
+    height: 50px;
+    position: absolute;
+    text-align: center;
+    width: 100px;
+    bottom: 130px;
+    left: 423px;
+    z-index: 1;
+}
+
+
+
+
