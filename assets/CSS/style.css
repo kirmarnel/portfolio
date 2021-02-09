@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background-color: rgb(88, 115, 116);
+}
+
+img {
+    border-radius: 5%;
+    margin: 5px;
+    border: solid white;
+    
+}
+
+header {
+    display: flex;
+    background-color: darkslategray; 
+    justify-content: space-between;    
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style: none;
+}
+
+nav li {
+   padding: 10px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header h1 {
+    color: white;
+}
+
+
+
+
+#about-me {
+    display: flex;
+    width: 80%;
+    
+    
+}
+
+#work {
+    display: flex;
+    width: 100;
+   
+}
+
+aside {
+    min-width: 200px;
+    max-width: 200px;
+    border-right: solid;
+    
+}
+
+section {
+    padding: 50px;
+}
+
+p {
+    padding-left: 20px;
+}
+
+.work-div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px;   
+}
+
+.aboutMe-div {
+    display: flex;
+    padding-left: 100px;
+    align-items: center;
+}
+
+  
