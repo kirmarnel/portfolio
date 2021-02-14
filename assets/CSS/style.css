@@ -46,6 +46,7 @@ main {
     margin-top: 50px;
     margin-bottom: 50px;
     padding: 20px;
+    
 }
 
 
@@ -65,11 +66,13 @@ main {
     justify-content: center;
     margin-top: 50px; 
     text-align: center;
+    color: rgb(167, 167, 167);
 }
 
 #work {
     padding-top: 70px;
     text-align: center;
+    color: rgb(167, 167, 167);
 }
 
 .cards {
@@ -96,6 +99,7 @@ main {
     left: 37px;
     text-align: center;
     padding-top: 10px;
+    color: black;
 
 }
 
